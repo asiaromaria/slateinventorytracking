@@ -1,10 +1,10 @@
-var fetch = require('node-fetch');
+var fetch = require("node-fetch");
 
+const baseURL = "https://apigoeshere";
 
-const baseURL = 'https://apigoeshere';
-
-export default async function fetchApi() {
-    const inventory = await fetch()
+async function fetchApi() {
+  const res = await fetch(baseURL);
+  const inventory = await res.json();
 }
 
-fetchApi();
+module.exports = fetchApi;
