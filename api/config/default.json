@@ -1,3 +1,4 @@
 {
+    "jwtsecret": "jwtsecret",
     "mongoURI": "mongodb+srv://asiaromaria:Bossofme1@Projects.pxuta.mongodb.net/Inventory?retryWrites=true&w=majority"
-}
+}  
